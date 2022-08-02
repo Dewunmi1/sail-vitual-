@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* to style the background */
+body{
+    background: white;
+}
+
+/* to style the title of the search engine */
+#title{
+    text-align: center;
+    font-family:'Tangerine';
+    font-weight: 700;
+    color: rgb(172, 47, 68);
+    margin-top: 30px;
+}
+
+.search_box{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+
+}
+
+/* to style the search area */
+#search_area{ 
+    width: 70%;
+    font-style: italic;
+    border-top: 5px;
+    outline: none;
+    padding: 5px;
+    background: none;
+}   
+
+/* to style the font of search button */
+#search_button{
+    color: white;
+}
+
+/* to style the search button */
+.search_box button{
+    width: 10%;
+    background: blue;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Roboto Condensed';
+}
+
+/* to make the search button hover when the cursor is on it */
+#search_button:hover{
+    background: blueviolet;
+}
+
+/* to style the background where the result will be shown */
+.result{
+    /* background-color: grey; */
+    width: 800px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 60px 50px;
+}
+
+.result{
+    position: relative;
+} 
+
+/* to style the font of the result shown */
+.result p{
+    font-size: 25px;
+    color: black;
+    font-family: 'Roboto Condensed';
+    /* font-weight: 300; */
+}
+
+.result .word{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+
+
+
+
